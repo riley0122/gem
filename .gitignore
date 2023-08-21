@@ -128,3 +128,8 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Projects created by gem
+projects/*
+# but not the guide project (for now)
+!projects/guide
