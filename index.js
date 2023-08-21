@@ -25,7 +25,7 @@ app.get("/create/make", (req, res) => {
   );
   fs.writeFileSync(
     path + "/app.mjs",
-    `import * as gem from '../../gem'\n\n// Your code goes here`
+    `import * as gem from '../../gem';\n\n// Your code goes here`
   );
   res.send(
     "created project " + req.query.name + "<br />View it in folder: " + path
